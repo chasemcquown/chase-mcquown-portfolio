@@ -99,6 +99,25 @@ header nav ul li a {
   padding-left: 40px;
 }
 
-.contact p {
-  padding-left: 40px;
+footer nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+footer h2 {
+  color: var(--secondary-color);
+  font-size: 30px;
+  margin: 0;
+}
+
+footer div {
+  line-height: 1.5;
+  text-align: right;
+}
+
+footer a {
+  color: var(--secondary-color);
 }
